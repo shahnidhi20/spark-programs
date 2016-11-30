@@ -47,7 +47,7 @@ object PageRank {
 
     }
 
-  
+     ranks.saveAsTextFile("pr.output.txt")
 
     //output.foreach(tup => println(tup._1 + " has rank: " + tup._2 + "."))
     ctx.stop()
